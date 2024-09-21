@@ -32,6 +32,11 @@ p {
   margin-left: auto;
   width: 1000px;
 }
+.pLeft{
+  text-align: left;
+  padding-left: 2%;
+  margin-left: 6%;
+}
 a{
   width: fit-content;
 }
@@ -99,7 +104,7 @@ nav li {
   background-color: #3a85a6;
 }
 
-/* IMAGE STYLE */
+/* IMAGE, VIDEO STYLE */
 .opt{
   display: block;
   float: left;
@@ -121,7 +126,7 @@ nav li {
   max-width: fit-content;
   float: center;
 }
-.ain{
+.icon{
   width: 300px;
   border-radius: 15%;
 }
@@ -143,9 +148,42 @@ nav li {
   display: block;
 
 }
+.container {
+  width: 80%;
+  height: 150px;
+  margin: auto;
+}
+
+#one {
+  width: 200px;
+  height: 450px;
+  float: left;
+  display: block;
+  border-radius: 5%;
+}
+
+#two {
+  margin-left: 15%;
+  height: 200px;
+  
+}
+#des{
+  width: 300px;
+}
+#nutty{
+  padding: 1%;
+  display:inline;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+#bee{
+  width:500px;
+  padding-bottom: 10%;
+}
 /*.about{
   display: block;
 }
+
 /* FLEXBOX */
 .flexbox-container{
     display: flex;
