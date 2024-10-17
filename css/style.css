@@ -24,7 +24,8 @@ h2 {
 
 }
 p {
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: #2f467a;
   text-align: center;
   font-size: 20px;
@@ -37,8 +38,17 @@ p {
   padding-left: 2%;
   margin-left: 6%;
 }
+.pLink{
+  text-align: center;
+  margin-left: 25%;
+}
+#ainLink{
+  margin-left: 40%;
+}
 a{
   width: fit-content;
+  color:#ed5a8b;
+  padding-bottom: 1%;
 }
 .proj{
   font-size: 30px;
@@ -115,7 +125,7 @@ nav li {
   width:16.5%;
 }
 .thumbnail{
-  width: 400px;
+  width: 500px;
   display: block;
   border-radius: 15%;
 }
@@ -171,13 +181,10 @@ nav li {
   width: 300px;
 }
 #nutty{
-  padding: 1%;
-  display:inline;
-  padding-left: 10%;
+  padding-top: 1%;
   padding-bottom: 2%;
 }
 #bee{
-  width:500px;
   padding-bottom: 10%;
 }
 /*.about{
